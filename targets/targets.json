@@ -7832,6 +7832,14 @@
             "CONFIG_GPIO_AS_PINRESET"
         ]
     },
+    "PARTICLE_XENON": {
+        "inherits": ["MCU_NRF52840"],
+        "features_add": ["STORAGE"],
+        "device_has_remove": ["ITM"],
+        "macros_add": [
+            "CONFIG_GPIO_AS_PINRESET"
+        ]
+    },
     "BLUEPILL_F103C8": {
         "inherits": ["FAMILY_STM32"],
         "core": "Cortex-M3",
